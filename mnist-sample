@@ -1,0 +1,4 @@
+通过变量管理机制和tensorflow模型持久化机制，将训练和测试分成两个独立的程序。
+1、mnsit_inference.py定义了前向传播的过程以及神经网络中的参数
+2.mnist_train.py 定义神经网络的训练过程
+3.mnist_eval.py 定义测试过程
